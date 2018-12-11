@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_margin="12dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_marginTop="12dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/city_tv_city"
+            android:layout_gravity="center_horizontal"
+            android:text="XXX"
+            android:textColor="#000000"
+            android:textSize="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/city_tv_type"
+            android:layout_gravity="center_horizontal"
+            android:text="晴天"
+            android:textColor="#000000"
+            android:textSize="18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/city_tv_wendu"
+            android:layout_gravity="center_horizontal"
+            android:textSize="50dp"
+            android:text="16度"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textColor="#000000"
+            android:layout_marginLeft="18dp"
+            android:id="@+id/city_tv_date"
+            android:layout_gravity="center_horizontal"
+            android:text="星期六"
+            android:textSize="18dp"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="#000000"
+            android:layout_marginLeft="28dp"
+            android:id="@+id/city_tv_high"
+            android:layout_gravity="center_horizontal"
+            android:textSize="18dp"
+            android:text="16度"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="#000000"
+            android:id="@+id/city_tv_low"
+            android:layout_gravity="center_horizontal"
+            android:textSize="18dp"
+            android:text="5度"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+<!--         -->
+    <LinearLayout
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textColor="#000000"
+            android:layout_marginLeft="18dp"
+            android:id="@+id/city_tv_sunset"
+            android:layout_gravity="center_horizontal"
+            android:text="星期六"
+            android:textSize="18dp"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="#000000"
+            android:layout_marginLeft="28dp"
+            android:id="@+id/city_tv_fx"
+            android:layout_gravity="center_horizontal"
+            android:textSize="18dp"
+            android:text="16度"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="#000000"
+            android:id="@+id/city_tv_fl"
+            android:layout_gravity="center_horizontal"
+            android:textSize="18dp"
+            android:text="5度"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+    <!--              fdgdf-->
+    <LinearLayout
+
+        android:layout_marginTop="18dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textColor="#000000"
+            android:paddingLeft="18dp"
+            android:layout_gravity="center_horizontal"
+            android:text="PM2.5"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="#000000"
+            android:id="@+id/dateweather_tv_pm25"
+            android:text="2"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <!--              fdgdf-->
+    <LinearLayout
+        android:layout_marginTop="18dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textColor="#000000"
+            android:paddingLeft="18dp"
+            android:layout_gravity="center_horizontal"
+            android:text="空气质量"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="#000000"
+            android:id="@+id/dateweather_tv_qualiry"
+            android:text="2"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+    <!--              fdgdf-->
+    <LinearLayout
+        android:textColor="#000000"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="18dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textColor="#000000"
+            android:paddingLeft="18dp"
+            android:layout_gravity="center_vertical"
+            android:text="温馨提示"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="#000000"
+            android:id="@+id/dateweather_tv_ganmao"
+            android:text="儿童、老年人及心脏、呼吸系统疾病患者人群应减少长时间或高强度户外锻炼，一般人群适量减少户外运动"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+
+    <ListView
+        android:id="@+id/dateweather_lv_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ListView>
+
+
+</LinearLayout>
